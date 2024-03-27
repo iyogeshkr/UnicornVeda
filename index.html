@@ -1,97 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web & App Development Consultancy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        nav {
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Webpage</title>
+<link rel="stylesheet" href="styles.css">
+<!-- Add Google Fonts link -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Web & App Development Consultancy</h1>
+
+<header>
+    <div class="container">
+        <h1>Modern Webpage</h1>
         <nav>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <section id="about" class="container">
-        <h2>About Us</h2>
-        <p>Welcome to our consultancy firm! We specialize in providing expert advice and assistance in web and app development to businesses of all sizes.</p>
-    </section>
+<section class="banner">
+    <div class="container">
+        <h2>Welcome to Our Website</h2>
+        <a href="#" class="btn">Explore Now</a>
+    </div>
+</section>
 
-    <section id="services" class="container">
+<section class="services">
+    <div class="container">
         <h2>Our Services</h2>
-        <ul>
-            <li>Web Development Consultancy</li>
-            <li>App Development Consultancy</li>
-            <li>Custom Solutions</li>
-            <li>Technical Support</li>
-        </ul>
-    </section>
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <h3>Service 1</h3>
+            <p>Description of Service 1</p>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <h3>Service 2</h3>
+            <p>Description of Service 2</p>
+        </div>
+        <!-- Add more service items as needed -->
+    </div>
+</section>
 
-    <section id="contact" class="container">
-        <h2>Contact Us</h2>
-        <p>If you have any inquiries or would like to discuss a project, feel free to reach out to us:</p>
-        <p>Email: info@example.com</p>
-        <p>Phone: +1234567890</p>
-    </section>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Modern Webpage. All rights reserved.</p>
+        <div class="footer-social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <!-- Add more social icons as needed -->
+        </div>
+    </div>
+</footer>
 
-    <footer>
-        &copy; 2024 Web & App Development Consultancy
-    </footer>
 </body>
 </html>
 
