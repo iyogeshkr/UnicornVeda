@@ -1,1 +1,110 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Roboto', sans-serif; /* Update font family */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Add background color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #222; /* Darken header background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Increase header font size */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Bolden navigation links */
+}
+
+.banner {
+    background-image: url('banner-background.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increase banner heading font size */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff; /* Change button color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px; /* Increase border radius */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+}
+
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increase services heading font size */
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 100px; /* Adjust service image size */
+    border-radius: 50%; /* Make service images circular */
+}
+
+footer {
+    background-color: #222; /* Darken footer background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.footer-social-icons a:hover {
+    color: #007bff; /* Change social icon color on hover */
+}
