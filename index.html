@@ -11,9 +11,21 @@
             margin: 0;
             padding: 0;
         }
+        .header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            width: 100%;
+        }
         .container {
             text-align: center;
-            margin-top: 100px;
+            margin-top: 150px; /* Adjusted margin to accommodate header */
         }
         h1 {
             font-size: 36px;
@@ -30,7 +42,7 @@
             color: #FF6347;
             overflow: hidden;
             white-space: nowrap;
-            animation: slide 4s linear infinite;
+            animation: slide 10s linear infinite;
         }
         @keyframes slide {
             0% {
@@ -44,16 +56,27 @@
             font-size: 24px;
             color: #FFD700;
             text-shadow: 2px 2px 4px #000000;
+            margin-top: 20px;
+        }
+        .welcome {
+            color: #4682B4;
+            font-size: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h2>UnicornVeda</h2>
+    </div>
     <div class="container">
         <h1>Website Under Maintenance</h1>
         <p class="apology">Sorry for the inconvenience caused. Sorry for the inconvenience caused. Sorry for the inconvenience caused.</p>
         <div class="image">
-            
+            <!--<img src="https://via.placeholder.com/400" alt="Under Maintenance Image">-->
         </div>
+        <p class="fancy-text">We will be back soon!</p>
+
     </div>
 </body>
 </html>
